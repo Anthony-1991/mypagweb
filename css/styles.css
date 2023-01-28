@@ -1,0 +1,528 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: white;
+    font-family: "Sriracha-Regular";
+}
+@font-face{
+    font-family: "Montserrat-Light";
+    src:url(../assets/font/Montserrat-Light.ttf)
+}
+
+@font-face{
+    font-family: "Sriracha-Regular";
+    src:url(../assets/font/Sriracha-Regular.ttf)
+}
+
+h1, h2, h3, h4{
+    font-family: "Montserrat-Light";
+}
+
+#header{
+    background-color: red;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80px;
+}
+
+#containertop{
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding-left: 25px;
+}
+
+.logo-veterinaria{
+    
+    height: 60px;
+    border-radius: 50%;
+    border: black 3px solid;
+}
+
+nav{
+    text-align: center;
+}
+
+#menu{
+    flex-grow: 1;
+    flex-basis: 40%;
+    height: 100%;
+
+    padding-right: 25px;
+}
+
+#menu > ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    list-style: none;
+}
+
+.items a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-family: "Sriracha-Regular";
+}
+
+.items a:hover{
+    background: black;
+    color: white;
+
+}
+
+.veterinary_imagen{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 350px;
+    background-color: cornflowerblue;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container img{
+    width: 100%;
+    height: 100%;
+}
+
+.container_item1{
+    width: 50%;
+    height: 350px;
+}
+
+
+.container_item1 p{
+    width: 80%;
+    margin: 0% 10%;
+    text-align: center;
+    padding-top: 42px;
+}
+
+.button_contacto1{
+    width: 80%;
+    margin: 0% 10%;
+    padding-top: 42px;
+    text-align: center;
+}
+
+.container_item1 button{
+    width: 100px;
+    text-align: center;
+    height: 42px;
+    font-family: "Montserrat-Light";
+}
+
+h2{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    
+}
+
+.p_resaltado{
+    color: rgba(255, 0, 0, 0.445);
+}
+
+.container_item1 button{
+    background-color: yellow;
+    
+}
+
+
+
+.container_item2{
+    width: 50%;
+    height: 350px;
+    border: solid 1px black;
+}
+
+.container_item2 h3{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.container_item2 img{
+    width: 70%;
+    margin: 0% 15%;
+    height: 200px;
+}
+
+.container_item2 p{
+    width: 70%;
+    margin: 0% 15%;
+    height: auto;
+    font-size: 14px;
+}
+
+.container_item3{
+    width: 50%;
+    height: 350px;
+    border: solid 1px black;
+}
+
+.container_item3 img{
+    width: 70%;
+    margin: 0% 15%;
+    margin-top: 20px;
+    height: 200px;
+}
+
+.container_item3 p{
+    width: 70%;
+    margin: 0% 15%;
+    height: auto;
+    font-size: 14px;
+}
+h5{
+    color: black;
+    text-align: center;
+}
+
+#footer{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    
+}
+
+#footer h5{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.container_nosotros{
+    width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+#vet_nosotros{
+    background-image: url(../assets/img/fondos.png);
+    width: 100%;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.container_nosotros2{
+    margin-bottom: 100px;
+}
+
+#vet_nosotros h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+#vet_nosotros p{
+    display: block;
+    margin: 0px 90px;
+    font-size: 13px;
+    
+}
+
+.parrafo1{
+    padding-bottom: 10px;
+}
+
+
+
+.container_item4{
+    padding: 30px;
+    width: 50%;
+    height: 350px;
+    border: 1px solid black;
+    
+}
+
+.container_item4 img{
+    width: 300px;
+    height: 200px;
+}
+
+.container_item4 p{
+    padding-top: 20px;
+    margin: 0% 25%;
+    width: 50%;
+    height: auto;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.servicio_veterinary{
+    background-image: url(../assets/img/fondos.png);
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.container_servicio{
+    height: auto;
+    max-height: 700px;
+}
+
+.container_item5{
+    padding: 20px;
+    width: 33.33%;
+    height: 420px;
+    border: 1px solid black;
+}
+
+.container_item5 h3{
+    text-align: center;
+    
+}
+
+.container_item5 img{
+    margin: 0px 1%;
+    width: 98%;
+    height: 200px;
+}
+
+.container_item5 ul{
+    padding-top: 10px;
+    margin: 0px 5%;
+}
+
+.container_item5 li{
+    width: 90%;
+    height: auto;
+    font-size: 14px;
+}
+
+.botones{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.button_contacto{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.products{
+    background-image: url(../assets/img/fondos.png);
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+
+
+.container_producto{
+    height: auto;
+    max-height: 700px;
+}
+
+.container_item6{
+    padding: 20px;
+    width: 50%;
+    height: 420px;
+    justify-items: center;
+    border: solid 1px black;
+}
+
+.container_item6 h3{
+    text-align: center;
+    
+}
+
+.container_item6 img{
+    margin: 0px 10%;
+    width: 80%;
+    height: 200px;
+}
+
+.container_item6 p{
+    margin: 10px 10%;
+    width: 80%;
+    height: auto;
+    font-size: 14px;
+}
+
+.botones a{
+    text-decoration: none;
+    color: white;
+}
+
+.contactos{
+    background-image: url(../assets/img/fondos.png);
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.containers_contacto1{
+    background-color: black;
+    color: white;
+}
+
+.containers_contacto2{
+    background-color: #696969;
+    color: white;
+}
+
+.containers_contacto3{
+    background-color: #C0C0C0;
+    color: white;
+}
+
+
+
+
+
+.container_direcciones{
+    width: 100%;
+    height: auto;
+}
+
+.container_item7{
+    width: 33.33%;
+    height: 90px;
+    border: 1px solid black;
+}
+
+.container_item7 h4{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+.container_item7 p{
+    width: 80%;
+    padding-top: 10px;
+    margin: 0% 10%;
+    font-size: 13px;
+    text-align: center;
+}
+
+.container_direcciones2{
+    width: 100%;
+    height: auto;
+}
+
+.container_item8{
+    padding: 10px;
+    width: 50%;
+    height: 500px;
+    justify-items: center;
+    border: solid 1px black;
+}
+
+.container_item8 h3{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.container_item8 form{
+    margin: 0% 10%;
+    width: 80%;
+    height: auto;
+    font-size: 14px;
+}
+
+.labels{
+    display: block;
+    width: 100%;
+}
+
+.inputs{
+    display: block;
+    width: 100%;
+}
+
+.map_ubicacion iframe{
+    width: 80%;
+    height: 350px;
+    margin: 0% 10%;
+}
+
+.fa-instagram{
+    color: violet;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+
+.fa-whatsapp{
+    color: green;
+}
+
+.footer_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+
+.icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all .8s;
+    cursor: pointer;
+}
+.icon:hover {
+    background-color: #e60073;
+    box-shadow:  0 0 20px #e60073 ;
+}
+.icon:hover:nth-child(2) {
+    background-color: #1877f2;
+    box-shadow:  0 0 20px #1877f2;
+}
+.icon:hover:nth-child(3) {
+    background-color: #25d366;
+    box-shadow: 0 0 20px #25d366 ;
+}
+
+.icon:hover:nth-child(4) {
+    background-color: #1da1f2;
+    box-shadow:  0 0 20px #1da1f2 ;
+}
+
+.icon i {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.7rem;
+}
+
+svg circle {
+    stroke-dasharray: 150;
+    transition: all .8s ease-in-out;
+}
+
+.icon:hover circle {
+    stroke-dasharray: 220;
+}
